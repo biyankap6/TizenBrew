@@ -11,7 +11,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = Express();
 const server = new WebSocketServer({ server: app.listen(8080) });
 let adb;
-global.inDebug = false;
+global.inDebug = true;
 
 function createAdbConnection(isTizen3, ip) {
     if (adb?._stream) {
