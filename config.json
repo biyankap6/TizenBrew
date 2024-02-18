@@ -1,5 +1,7 @@
 {
     "appId": "UMkYeZBOqz.TizenBrew",
     "debug": false,
-    "modules": []
+    "modules": [
+        "@foxreis/tizentube"
+    ]
 }
